@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i did it</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>💰 Dollar => So'm 💰</h1>
+            <label for="moneyAmount">Pul miqdorini kiriting: </label>
+            <input type="number" id="moneyAmount" name="moneyAmount" />
+            <p id="err">Miqdorni kiriting</p>
+            <div class="select-box">
+                <div class="from-box">
+                    <h2>FROM</h2>
+                    <select name="from" id="from">
+                        <option value="USD">USD <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Flag_of_the_United_States_%28Pantone%29.png" alt="US Flag" /></option>
+                        <option value="EUR">EUR <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.png" alt="EU Flag" /></option>
+                        <option value="RUB">RUB <img src="https://img.freepik.com/free-vector/illustration-of-russia-flag_53876-27016.jpg" alt="Russia Flag" /></option>
+                        <option value="CNY">CNY <img src="https://img.freepik.com/free-vector/illustration-of-china-flag_53876-27015.png" alt="China Flag" /></option>
+                        <option value="EGP">EGP <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/800px-Flag_of_Egypt.svg.png" alt="Egypt Flag" /></option>
+                        <option value="INR">INR <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCnQXo7eUZqYL9_br-pTPTkbowPp_JvvFdqw&s.png" alt="India Flag" /></option>
+                        <option value="KGS">KGS <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.png" alt="Kyrgyzstan Flag" /></option>
+                        <option value="MDL">MDL <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/1200px-Flag_of_Moldova.svg.png" alt="Moldova Flag" /></option>
+                        <option value="QAR">QAR <img src="https://img.freepik.com/premium-photo/qatar-national-fabric-flag-textile-background-symbol-world-asian-country_113767-1798.png" alt="Qatar Flag" /></option>
+                        <option value="SAR">SAR <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/800px-Flag_of_Saudi_Arabia.png" alt="Arabiston Flag" /></option>
+
+
+                    </select>
+                </div>
+                <div class="to-box">
+                    <h2>to</h2>
+                    <select name="to" id="to">
+                        <option value="USD">USD <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Flag_of_the_United_States_%28Pantone%29.png" alt="US Flag" /></option>
+                        <option value="EUR">EUR <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.png" alt="EU Flag" /></option>
+                        <option value="RUB">RUB <img src="https://img.freepik.com/free-vector/illustration-of-russia-flag_53876-27016.jpg" alt="Russia Flag" /></option>
+                        <option value="CNY">CNY <img src="https://img.freepik.com/free-vector/illustration-of-china-flag_53876-27015.png" alt="China Flag" /></option>
+                        <option value="EGP">EGP <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/800px-Flag_of_Egypt.svg.png" alt="Egypt Flag" /></option>
+                        <option value="INR">INR <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCnQXo7eUZqYL9_br-pTPTkbowPp_JvvFdqw&s.png" alt="India Flag" /></option>
+                        <option value="KGS">KGS <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.png" alt="Kyrgyzstan Flag" /></option>
+                        <option value="MDL">MDL <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/1200px-Flag_of_Moldova.svg.png" alt="Moldova Flag" /></option>
+                        <option value="QAR">QAR <img src="https://img.freepik.com/premium-photo/qatar-national-fabric-flag-textile-background-symbol-world-asian-country_113767-1798.png" alt="Qatar Flag" /></option>
+                        <option value="SAR">SAR <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/800px-Flag_of_Saudi_Arabia.png" alt="Arabiston Flag" /></option>
+
+                    </select>
+                </div>
+            </div>
+            <button style="margin-top: 25px;" id="btn">🔴 Hisoblash 🔴</button>
+            <h2 id="result">💰 Natija : ? so'm 💰</h2>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

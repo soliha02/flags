@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.box {
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 100px auto;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input {
+    width: 60%;
+    height: 50px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+p, label {
+    font-size: 20px;
+}
+
+#err {
+    color: red;
+    display: none;
+}
+
+#btn {
+    padding: 14px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#result {
+    color: white;
+}
+
+.select-box {
+    display: flex;
+    gap: 100px;
+}
+
+select {
+    width: 150px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
